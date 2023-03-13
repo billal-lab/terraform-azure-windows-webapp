@@ -2,7 +2,7 @@ Terraform module to create az web app on windows os
 
 ```hcl
 module "win-webapp" {
-    source   = "./modules/terraform-azure-windows-webapp"
+    source  = "billal-lab/windows-webapp/azure"
     location = "francecentral"
     client_name = "client1"
     environnement = "dev"
